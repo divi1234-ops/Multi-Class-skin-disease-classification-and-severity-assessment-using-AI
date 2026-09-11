@@ -1,0 +1,44 @@
+========== DATASET SUMMARY ==========
+
+Total Images : 20030
+Training Images : 14021
+Validation Images : 3004
+Testing Images : 3005
+
+Number of Classes : 7
+
+HAM10000 Images : 10015
+ISIC2018 Images : 10015
+
+========== MISSING VALUES ==========
+
+image                         0
+label                         0
+dataset                       0
+lesion_id                 10015
+diagnosis_confirm_type    10015
+dtype: int64
+
+========== DUPLICATES ==========
+
+Duplicate Image IDs : 10015
+Missing Image Files : 0
+
+========== CLASS DISTRIBUTION ==========
+
+label
+NV       13410
+MEL       2226
+BKL       2198
+BCC       1028
+AKIEC      654
+VASC       284
+DF         230
+Name: count, dtype: int64
+
+========== DATASET DISTRIBUTION ==========
+
+dataset
+HAM10000    10015
+ISIC2018    10015
+Name: count, dtype: int64
